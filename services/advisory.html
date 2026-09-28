@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Advisory — Kredit Lab</title>
+    <meta name="description" content="Hands-on credit advisory for Malaysian businesses: financial assessment, loan structuring, bank selection, submission preparation, and negotiation support.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="icon" type="image/png" href="/Chromtabs-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/site.css?v=20260924b">
+    <script src="/assets/site.js?v=20260924b"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a class="logo" href="/"><img src="/Chromtabs-logo.png" alt="Kredit Lab logo"> Kredit Lab</a>
+        <div class="nav-links">
+            <a href="/services/reports">SME Report</a>
+            <a href="/services/advisory" class="active">Advisory</a>
+            <a href="/services/institutions">For Institutions</a>
+            <a href="/samples">Samples</a>
+            <a href="/about">About</a>
+            <a class="nav-login" href="https://app.kreditlab.my/login">Kreditician Login</a>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+            <button class="toggle-btn" data-theme-toggle onclick="toggleTheme()">🌙</button>
+            <button class="nav-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <section class="hero container" style="padding-bottom:40px;">
+        <span class="eyebrow">Credit Advisory</span>
+        <h1>For financing that's too important to <em>wing</em>.</h1>
+        <p class="lead">A RM500 report tells you where you stand. Advisory is us standing
+        next to you — from first assessment to the bank's final answer.</p>
+        <div class="btn-row">
+            <a class="btn btn-primary" href="#enquire">Start a conversation</a>
+            <a class="btn btn-secondary" href="#how">What we actually do</a>
+        </div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="block tight" id="how">
+        <div class="container">
+            <span class="section-label">End to End</span>
+            <h2 class="section-title">What an engagement covers.</h2>
+            <ol class="step-list" style="margin-top:26px;">
+                <li><span class="step-num">1</span><div><h4>Financial assessment</h4>
+                    <p>We analyse your accounts and bank statements the way a credit officer will —
+                    and tell you honestly whether you're ready to apply, or what to fix first.</p></div></li>
+                <li><span class="step-num">2</span><div><h4>Structuring</h4>
+                    <p>The right facility, the right amount, the right tenure. Most rejections we see
+                    were the wrong ask, not the wrong business.</p></div></li>
+                <li><span class="step-num">3</span><div><h4>Bank selection</h4>
+                    <p>Different lenders have different appetites. We match your profile to the
+                    institutions most likely to say yes — before you spend months finding out the hard way.</p></div></li>
+                <li><span class="step-num">4</span><div><h4>Submission preparation</h4>
+                    <p>A complete, well-presented application that answers the credit team's questions
+                    before they're asked.</p></div></li>
+                <li><span class="step-num">5</span><div><h4>Negotiation support</h4>
+                    <p>When offers come back, we help you understand the terms and negotiate what's negotiable.</p></div></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <section class="block tight">
+        <div class="container">
+            <span class="section-label">Comparison</span>
+            <h2 class="section-title">Side by side.</h2>
+            <p class="section-sub" style="margin-bottom:26px;">What you get from us, against what the
+            market typically offers. Line by line, no adjectives.</p>
+
+            <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+            <symbol id="ic-doc" viewBox="0 0 24 24"><path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4"/><path d="M9 12h6M9 16h6"/></symbol>
+            <symbol id="ic-book" viewBox="0 0 24 24"><path d="M4 4h6.5a1.5 1.5 0 011.5 1.5V20a1.5 1.5 0 00-1.5-1.5H4z"/><path d="M20 4h-6.5A1.5 1.5 0 0012 5.5V20a1.5 1.5 0 011.5-1.5H20z"/></symbol>
+            <symbol id="ic-flow" viewBox="0 0 24 24"><path d="M4 8.5h13l-3.2-3.2M20 15.5H7l3.2 3.2"/></symbol>
+            <symbol id="ic-gap" viewBox="0 0 24 24"><path d="M6 2.5h8l4 4v15H6z" stroke-dasharray="3 2.6"/><path d="M12 9v4.5M12 16.4v.9"/></symbol>
+            <symbol id="ic-equals" viewBox="0 0 24 24"><path d="M5 9.8h14M5 14.6h14"/></symbol>
+            <symbol id="ic-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.3"/><circle cx="12" cy="12" r="3.2"/></symbol>
+            <symbol id="ic-grade" viewBox="0 0 24 24"><path d="M5 19.5V14M10 19.5V9.5M15 19.5V12M20 19.5V5.5"/></symbol>
+            <symbol id="ic-flag" viewBox="0 0 24 24"><path d="M6 21.5V3.2h11l-2.6 4.3L17 12.2H6"/></symbol>
+            <symbol id="ic-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.4"/><path d="M5.6 20.4a6.4 6.4 0 0112.8 0"/></symbol>
+            <symbol id="ic-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M12 11.2v5.6M12 7.5v1"/></symbol>
+            <symbol id="ic-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.2v9.6M14.5 9.5c-.5-.8-1.4-1.2-2.5-1.2-1.5 0-2.6.8-2.6 1.9 0 2.6 5.2 1.4 5.2 4 0 1.1-1.1 2-2.6 2-1.1 0-2.1-.5-2.6-1.3"/></symbol>
+            <symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 2.8l7 2.9v5.9c0 4.3-2.9 7.8-7 8.6-4.1-.8-7-4.3-7-8.6V5.7z"/></symbol>
+            <symbol id="ic-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M12 6.8v5.5l3.5 2"/></symbol>
+            <symbol id="ic-tag" viewBox="0 0 24 24"><path d="M3.2 12.6V3.4h9.2l8.4 8.4-9.2 9.2z"/><circle cx="7.4" cy="7.4" r="1.4"/></symbol>
+            <symbol id="ic-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.9 1.9M16.7 16.7l1.9 1.9M18.6 5.4l-1.9 1.9M7.3 16.7l-1.9 1.9"/></symbol>
+            <symbol id="ic-spark" viewBox="0 0 24 24"><path d="M12 3l2.2 5.6L19.8 11l-5.6 2.2L12 19l-2.2-5.8L4.2 11l5.6-2.4z"/></symbol>
+            </defs></svg>
+            <div class="vs">
+                <div class="vs-head">
+                    <div class="us">Kredit Lab</div>
+                    <div class="mid"></div>
+                    <div class="them">Typical consultancy</div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-doc"/></svg><span data-who="Kredit Lab">Every transaction parsed and classified — counterparty by counterparty, month by month</span></div>
+                    <div class="vs-label">Bank statements</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-doc"/></svg><span data-who="Typical consultancy">Total in, total out</span></div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-book"/></svg><span data-who="Kredit Lab">Spread across up to 3 financial years, ratio by ratio, with the trend</span></div>
+                    <div class="vs-label">Financial statements</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-book"/></svg><span data-who="Typical consultancy">Latest year, summarised</span></div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-flow"/></svg><span data-who="Kredit Lab">Derived and reconciled — where the money actually came from and went</span></div>
+                    <div class="vs-label">Cash flow</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-flow"/></svg><span data-who="Typical consultancy">Rarely produced at all</span></div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-grade"/></svg><span data-who="Kredit Lab">An internal rating on a defined scorecard, with the working shown</span></div>
+                    <div class="vs-label">Credit grade</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-grade"/></svg><span data-who="Typical consultancy">An opinion</span></div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-info"/></svg><span data-who="Kredit Lab">Written into the report: what we could not test, and why</span></div>
+                    <div class="vs-label">Stated limits</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-info"/></svg><span data-who="Typical consultancy">Seldom stated</span></div>
+                </div>
+                <div class="vs-row">
+                    <div class="pill us"><svg class="ic" aria-hidden="true"><use href="#ic-shield"/></svg><span data-who="Kredit Lab">We say so, and what to fix first</span></div>
+                    <div class="vs-label">If your file is weak</div>
+                    <div class="pill them"><svg class="ic" aria-hidden="true"><use href="#ic-shield"/></svg><span data-who="Typical consultancy">Submitted anyway</span></div>
+                </div>
+            </div>
+            <p class="spec-note">The right-hand column is what clients tell us they were given
+            elsewhere. Every firm is different, so treat these as questions rather than accusations —
+            and ask any consultancy the same ones. The answers will tell you more than any pitch.</p>
+        </div>
+    </section>
+
+    <!-- WHO IT'S FOR -->
+    <section class="block tight">
+        <div class="container">
+            <span class="section-label">Who This Suits</span>
+            <h2 class="section-title">Built for real complexity.</h2>
+            <div class="grid-3" style="margin-top:26px;">
+                <div class="card"><h3>Larger facilities</h3><p>Working capital lines, term financing,
+                    project or contract financing — where structure matters as much as numbers.</p></div>
+                <div class="card"><h3>Messy histories</h3><p>Past rejections, restructured facilities,
+                    gaps between management accounts and audited numbers — cases that need explaining, properly.</p></div>
+                <div class="card"><h3>First-time applicants</h3><p>Companies approaching banks for the
+                    first time who want the first impression done right.</p></div>
+            </div>
+            <p style="color:var(--text-secondary); margin-top:22px; font-size:15px;">
+                If you just need clarity on where you stand, start with a
+                <a href="/services/reports" style="color:var(--teal);">RM500 report</a> instead —
+                it's often all you need, and we'll say so.</p>
+        </div>
+    </section>
+
+    <!-- TRACK RECORD -->
+    <section class="block tight">
+        <div class="container">
+            <span class="section-label">Track Record</span>
+            <h2 class="section-title">We don't publish deal tables.</h2>
+            <div class="statement" style="margin-top:22px;">
+                <p>Every case we have worked on belongs to a client who handed us their audited accounts
+                and their bank statements. Those numbers are not ours to advertise — not even
+                anonymised, not even rounded, not even as a total.</p>
+                <p>So we won't be telling you we have arranged RM-something million across
+                such-and-such industries. Everyone says that, almost nobody can be checked on it, and
+                it tells you nothing about whether we can read <em>your</em> file.</p>
+                <p>What we will do: when we meet, we will walk you through comparable cases — same
+                industry, same facility type, what worked, what didn't, and where it nearly fell over.
+                In the room, properly, with context. That is worth more than a number on a website.</p>
+                <p>Until then, judge the work instead. The
+                <a href="/samples">sample reports</a> are genuine client reports with the names removed
+                — exactly what you would receive.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENQUIRY -->
+    <section class="block" id="enquire">
+        <div class="container">
+            <span class="section-label">Start Here</span>
+            <h2 class="section-title">Tell us about your situation.</h2>
+            <p class="section-sub" style="margin-bottom:28px;">No fees published, because no two cases
+            are the same — we quote after understanding yours. This is a conversation, not a checkout.</p>
+            <div class="btn-row" style="justify-content:flex-start;">
+                <a class="btn btn-primary" href="https://wa.me/60164414739?text=Hi%2C%20I%27d%20like%20to%20discuss%20credit%20advisory.">Start on WhatsApp</a>
+                <a class="btn btn-secondary" href="mailto:advisory@kreditlab.my?subject=Advisory%20enquiry">Email us</a>
+            </div>
+            <p style="color:var(--text-muted); font-size:13.5px; margin-top:24px; max-width:640px;">
+                Four things help us come back with something useful: who you are and the company,
+                what you are trying to finance and roughly how much, where you are in the process
+                — a first approach, or already turned down — and when you need it by.
+                A few lines is enough.</p>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <img class="theme-logo" src="/KreditLab-light.png" data-logo-light="/KreditLab-light.png" data-logo-dark="/KreditLab-dark.png" alt="Kredit Lab">
+        <div class="footer-tagline">Clarity Before Capital</div>
+        <div class="footer-links">
+            <a href="/services/reports">SME Report</a>
+            <a href="/services/advisory">Advisory</a>
+            <a href="/services/institutions">Institutions</a>
+            <a href="/samples">Samples</a>
+            <a href="/about">About</a>
+            <a href="/legal/privacy">Privacy</a>
+            <a href="/legal/terms">Terms</a>
+            <a href="/legal/pdpa">PDPA</a>
+        </div>
+        <div class="footer-legal">
+            Kredit Lab is a brand of <strong>Capital Island Sdn Bhd</strong><br>
+            Lot 5.66, 5th Floor, Wisma Central, Jalan Ampang, 50450 Kuala Lumpur, Malaysia<br>
+            <a href="mailto:advisory@kreditlab.my">advisory@kreditlab.my</a> &nbsp;•&nbsp;
+            <a href="tel:+60164414739">+6016-441 4739</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
